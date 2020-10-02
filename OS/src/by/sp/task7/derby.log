@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Oct 02 01:04:41 MSK 2020:
+ Производится загрузка Derby версии The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): экземпляр a816c00e-0174-e632-27fb-ffffc59e539e
+в каталоге базы данных C:\Users\User\git\OS\OS\src\by\sp\task7\ExternalDB jdk.internal.loader.ClassLoaders$AppClassLoader@69663380 
+
+java.vendor=Oracle Corporation
+java.runtime.version=11.0.4+10-LTS
+user.dir=C:\Users\User\git\OS\OS
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\Users\User\git\OS\OS\src\by\sp\task7
+Запущен загрузчик классов базы данных - derby.database.classpath=''
