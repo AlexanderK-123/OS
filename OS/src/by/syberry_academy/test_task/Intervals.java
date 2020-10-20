@@ -12,6 +12,10 @@ public class Intervals {
 
 		String iLetter = name.substring(0, 1);
 		int iNum = Integer.parseInt(name.substring(1));
+		
+		String noteLetter = note.substring(0, 1);
+		String noteSign = note.substring(1);
+		
 		int bufNum = iNum;
 		int index = 0;
 		int qSemitons = 0;
@@ -20,7 +24,7 @@ public class Intervals {
 		// System.out.println(iLetter);
 
 		for (int i = 0; i < notes.length; i++) {
-			if (note == notes[i]) {
+			if (noteLetter == notes[i]) {
 				index = i;
 			}
 		}
@@ -44,6 +48,12 @@ public class Intervals {
 				qSemitons += 2;
 				bufNum--;
 			}
+		}
+		
+		if(noteSign == "#") {
+			qSemitons--;
+		}else if(noteSign == "b"){
+			qSemitons++;
 		}
 
 		// dsc
